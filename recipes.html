@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <meta name="title" content="recipes">
+    <meta name="description" content="This is a business recipes page Tasty Treasures Cooking">
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.png" width="74" height="24" alt="Tasty Treasures Cooking">
+            </a>
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo.png" width="74" height="24" alt="Tasty Treasures Cooking">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="index.html" class="navbar-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="about.html" class="navbar-link">About</a>
+                    </li>
+
+                    <li>
+                        <a href="recipes.html" class="navbar-link">Recipes</a>
+                    </li>
+
+                    <li>
+                        <a href="blog.html" class="navbar-link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="navbar-link">Contact</a>
+                    </li>
+
+                </ul>
+                <div class="wrapper">
+                    <a href="mailto:info@email.com" class="contact-link">info@email.com</a>
+
+                    <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a>
+                </div>
+
+                <ul class="social-list">
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-dribbble"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <a href="#" class="btn btn-primary">Explore recipes</a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+    <main>
+        <article>
+            <section class="section hero has-bg-image recipe-hero" aria-label="about-us"
+                style="background-image: url('./assets/images/cookbanner.png')">
+                <div class="center-container">
+                    <h1 class="h1 hero-title "> Discover New Culinary
+                        Delights Daily </h1>
+                    <p class="section-text">Welcome to Easy Eats, where we make cooking effortless. Discover endless
+                        possibilities with our daily recipe suggestions, turning ordinary ingredients
+                        into extraordinary meals.</p>
+                </div>
+            </section>
+            <section class="section recipe-recommend">
+                <div class="container">
+                    <h1 class="h1">
+                        Recommended Categories
+                    </h1>
+                    <div class="recipe-recommend-list">
+                        <div class="recipe-recommend-item">
+                            <figure class="image">
+                                <img src="./assets/images/dosa.jpg" loading="lazy" alt="Dosa" class="w-100">
+                            </figure>
+                            <h4 class="h4">Dosa</h4>
+                        </div>
+
+                        <div class="recipe-recommend-item">
+                            <figure class="image">
+                                <img src="./assets/images/idli.jpg" loading="lazy" alt="Idli" class="w-100">
+                            </figure>
+                            <h4 class="h4">Idli</h4>
+                        </div>
+
+                        <div class="recipe-recommend-item">
+                            <figure class="image">
+                                <img src="./assets/images/gravies.jpeg" loading="lazy" alt="Gravies" class="w-100">
+                            </figure>
+                            <h4 class="h4">Gravies</h4>
+                        </div>
+
+                        <div class="recipe-recommend-item">
+                            <figure class="image">
+                                <img src="./assets/images/rice.jpg" loading="lazy" alt="Rices" class="w-100">
+                            </figure>
+                            <h4 class="h4">Rices</h4>
+                        </div>
+
+                        <div class="recipe-recommend-item">
+                            <figure class="image">
+                                <img src="./assets/images/chutney.jpg" loading="lazy" alt="Chutney" class="w-100">
+                            </figure>
+                            <h4 class="h4">Chutney</h4>
+                        </div>
+
+                        <div class="recipe-recommend-item">
+                            <figure class="image">
+                                <img src="./assets/images/sweets.jpg" loading="lazy" alt="Sweets" class="w-100">
+                            </figure>
+                            <h4 class="h4">Sweets</h4>
+                        </div>
+
+                        <div class="recipe-recommend-item">
+                            <figure class="image">
+                                <img src="./assets/images/snack.jpeg" loading="lazy" alt="Snacks" class="w-100">
+                            </figure>
+                            <h4 class="h4">Snacks</h4>
+                        </div>
+
+                        <div class="recipe-recommend-item">
+                            <figure class="image">
+                                <img src="./assets/images/noodles.jpg" loading="lazy" alt="Noodles" class="w-100">
+                            </figure>
+                            <h4 class="h4">Noodles</h4>
+                        </div>
+
+                        <div class="recipe-recommend-item">
+                            <figure class="image">
+                                <img src="./assets/images/chicken.jpg" loading="lazy" alt="Chicken" class="w-100">
+                            </figure>
+                            <h4 class="h4">Chicken</h4>
+                        </div>
+
+                        <div class="recipe-recommend-item">
+                            <figure class="image">
+                                <img src="./assets/images/fish.jpg" loading="lazy" alt="Fish" class="w-100">
+                            </figure>
+                            <h4 class="h4">Fish</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section recipe-popular">
+                <div class="container">
+                    <h1 class="h1">
+                        Popular Recipes
+                    </h1>
+
+                    <div class="recipe-popular-list">
+                        <div class="recipe-popular-item">
+                            <figure class="image">
+                                <img src="./assets/images/chicken.jpg" loading="lazy" alt="chicken" class="w-100">
+                            </figure>
+                            <div class="content">
+                                <h4 class="h4">Chicken lolipop</h4>
+                                <button class="btn btn-primary">View recipe</button>
+                            </div>
+                        </div>
+                        <div class="recipe-popular-item">
+                            <figure class="image">
+                                <img src="./assets/images/dosa.jpg" loading="lazy" alt="Dosa" class="w-100">
+                            </figure>
+                            <div class="content">
+                                <h4 class="h4">Masala Dosa</h4>
+                                <button class="btn">View recipe</button>
+                            </div>
+                        </div>
+
+                        <div class="recipe-popular-item">
+                            <figure class="image">
+                                <img src="./assets/images/chutney.jpg" loading="lazy" alt="Biryani" class="w-100">
+                            </figure>
+                            <div class="content">
+                                <h4 class="h4">Biryani</h4>
+                                <button class="btn">View recipe</button>
+                            </div>
+                        </div>
+
+                        <div class="recipe-popular-item">
+                            <figure class="image">
+                                <img src="./assets/images/idli.jpg" loading="lazy" alt=">Chole Bhature" class="w-100">
+                            </figure>
+                            <div class="content">
+                                <h4 class="h4">Chole Bhature</h4>
+                                <button class="btn">View recipe</button>
+                            </div>
+                        </div>
+
+                        <div class="recipe-popular-item">
+                            <figure class="image">
+                                <img src="./assets/images/noodles.jpg" loading="lazy" alt="Paneer Tikka" class="w-100">
+                            </figure>
+                            <div class="content">
+                                <h4 class="h4">Paneer Tikka</h4>
+                                <button class="btn">View recipe</button>
+                            </div>
+                        </div>
+
+                        <div class="recipe-popular-item">
+                            <figure class="image">
+                                <img src="./assets/images/sweets.jpg" loading="lazy" alt="Samosa" class="w-100">
+                            </figure>
+                            <div class="content">
+                                <h4 class="h4">Samosa</h4>
+                                <button class="btn">View recipe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="container grid-list">
+
+            <div class="footer-brand">
+
+                <a href="#" class="logo">
+                    <img src="./assets/images/logo.png" width="74" height="24" alt="Tasty Treasures Cooking home">
+                </a>
+
+                <p class="footer-text">
+                    &copy; 2024 Tasty Treasures Cooking. <br> All rights reserved.
+                </p>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-dribbble"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="h4 footer-list-title">Get in Touch</p>
+                </li>
+
+                <li>
+                    <address class="footer-text">
+                        2nd Floor, Kim Hoan Building, 19 Duy Tan lane, Cau Giay district, Ha Noi city.
+                    </address>
+                </li>
+
+                <li>
+                    <a href="mailto:info@email.com" class="footer-link">info@email.com</a>
+                </li>
+
+                <li>
+                    <a href="tel:001234567890" class="footer-link">00 (123) 456 78 90</a>
+                </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="h4 footer-list-title">Learn More</p>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">About Us</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Our Story</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Service</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Terms of Use</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </li>
+
+            </ul>
+
+            <div class="footer-list">
+
+                <p class="h4 footer-list-title">Our Newsletter</p>
+
+                <p class="footer-text">
+                    Subscribe to our newsletter to get our news & deals delivered to you.
+                </p>
+
+                <form action="" class="input-wrapper">
+                    <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+                    <button type="submit" class="submit-btn">Join</button>
+                </form>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
